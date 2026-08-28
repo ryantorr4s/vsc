@@ -41,7 +41,7 @@ public sealed class TextLogParser
         @"\[(?<level>[^\]]+)\]\s+" +
         @"\[(?<thread>[^\]]+)\]\s+" +
         @"(?<logger>[\w.]+)\s+-\s+" +
-        @"(?<message>.*)$",
+        @"(?<message>.*)$"
         RegexOptions.Compiled | RegexOptions.CultureInvariant);
 
     private const string TimestampFormat = "yyyy-MM-dd HH:mm:ss";
